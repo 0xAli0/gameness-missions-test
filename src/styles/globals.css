@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rowdies:wght@300;400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  *::-webkit-scrollbar-track {
+    @apply sm:bg-gray-800;
+  }
+
+  *::-webkit-scrollbar {
+    @apply sm:w-[6px] sm:bg-[#ecf1f6];
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply sm:rounded-full sm:bg-primary;
+    border-radius: 0.25rem !important;
+    -webkit-border-radius: 0.25rem !important;
+    -moz-border-radius: 0.25rem !important;
+    -ms-border-radius: 0.25rem !important;
+    -o-border-radius: 0.25rem !important;
+  }
+
+  *::-webkit-scrollbar {
+    @apply sm:h-[8px];
+  }
+
+  *::-webkit-scrollbar-corner {
+    @apply sm:bg-[#ecf1f6];
+  }
+  h1 {
+    @apply text-3xl  xl:text-6xl xl:mb-8 2xl:text-8xl 2xl:mb-14  xl:leading-relaxed font-bold;
+  }
+  h2 {
+    @apply text-xl  xl:text-4xl xl:mb-4  2xl:text-5xl 2xl:mb-4 2xl:-mt-2 xl:leading-relaxed font-bold;
+  }
+  h3 {
+    @apply text-base font-semibold;
+  }
+  h4 {
+    @apply text-sm font-semibold;
+  }
+}
+
+.no-zoom {
+  font-size: 16px;
+  transform-origin: top left;
+  transform: scale(1);    
+  width:  100%;             
+  height: 36px;              
+  padding      : 5.333333px; 
+  border-radius: 6.666667px; 
+  border-width : 1.333333px;
+}
