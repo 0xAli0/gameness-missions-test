@@ -137,7 +137,7 @@ export default function Home() {
             <div className=" pt-3 w-1/2 md:w-2/3 ">
               <h1 className="leading-7">GAMENESS</h1>
               <h1 className="leading-7">AIRDROP</h1>
-              <h2 className="leading-7 py-2 text-primary">{user?.totalPoints} <span className="text-white">GMNS POINTS</span></h2>
+              <h2 className="leading-7 py-2 text-primary">{user?.totalPoints} <span className="text-white">GNESS POINTS</span></h2>
               <HRust />
             </div>
           </div>
@@ -235,7 +235,7 @@ export default function Home() {
                       </div>
                       <div className="flex gap-2 md:gap-4 items-center">
                         <span className="text-white text-[10px] shrink-0 md:text-sm font-extralight">
-                          +{item.mission_point} GMNS Point
+                          +{item.mission_point} GNESS Point
                         </span>
                         <button
                           onClick={() => {
@@ -286,7 +286,7 @@ export default function Home() {
                       </div>
                       <div className="flex gap-2 md:gap-4 items-center">
                         <span className="text-green-500 text-[10px] shrink-0 md:text-sm font-extralight">
-                          +{item.mission_point} GMNS Point
+                          +{item.mission_point} GNESS Point
                         </span>
                         <div className="bg-white/5 rounded-full text-xs py-2 px-4" >
                           <FaCheck className="text-green-500" size={14} />
